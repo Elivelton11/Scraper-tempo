@@ -61,14 +61,14 @@ driver.quit()
 
 smtp_server = 'smtp.gmail.com'
 smtp_port = 587
-smtp_user = 'eliveltopadilhaa@gmail.com'
-smtp_password = 'eiag qpdx iuee brwv'
+smtp_user = 'seu e-mail'
+smtp_password = 'sua senha '
 
 #Criar a mensagem do email
 
 msg = MIMEMultipart()
 msg['From'] = smtp_user
-msg['To'] = 'eliveltonpadilhaa@hotmail.com'
+msg['To'] = 'e-mail destinatário'
 msg['Subject'] = 'Dados de previsão do tempo'
 
 #Corpo do email
